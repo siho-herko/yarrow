@@ -1,0 +1,33 @@
+# PLACEMENT: circulation-safe
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yarrow-ai"
+version = "0.1.0"
+description = "Open-source components of the Hexis programme: the arithmetic of a fixed 64-state structure for language-model agents."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{ name = "Simon Herko" }, { name = "Chris Pidcock" }]
+keywords = ["language-model agents", "agent governance", "metacognition", "routing", "I Ching", "Yijing"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/siho-herko/yarrow"
+Paper = "https://doi.org/10.5281/zenodo.23393632"
+Issues = "https://github.com/siho-herko/yarrow/issues"
+
+[tool.setuptools]
+packages = ["yarrow", "yarrow.canon"]
+
+[tool.setuptools.package-data]
+"yarrow.canon" = ["*.json"]

@@ -1,0 +1,698 @@
+{
+ "_placement": "circulation-safe",
+ "generated_by": "tools/regenerate.py",
+ "lines_note": "bottom to top; 1 yang (explicit), 0 yin (implicit)",
+ "fit_note": "rule wangbi at the default centrality weight of 1",
+ "states": [
+  {
+   "kingwen": 1,
+   "inner": "☰ Heaven [111]",
+   "outer": "☰ Heaven [111]",
+   "lines": "111111",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "3"
+  },
+  {
+   "kingwen": 2,
+   "inner": "☷ Earth [000]",
+   "outer": "☷ Earth [000]",
+   "lines": "000000",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "3"
+  },
+  {
+   "kingwen": 3,
+   "inner": "☳ Thunder [100]",
+   "outer": "☵ Water [010]",
+   "lines": "100010",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "7"
+  },
+  {
+   "kingwen": 4,
+   "inner": "☵ Water [010]",
+   "outer": "☶ Mountain [001]",
+   "lines": "010001",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "3"
+  },
+  {
+   "kingwen": 5,
+   "inner": "☰ Heaven [111]",
+   "outer": "☵ Water [010]",
+   "lines": "111010",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "7"
+  },
+  {
+   "kingwen": 6,
+   "inner": "☵ Water [010]",
+   "outer": "☰ Heaven [111]",
+   "lines": "010111",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "3"
+  },
+  {
+   "kingwen": 7,
+   "inner": "☵ Water [010]",
+   "outer": "☷ Earth [000]",
+   "lines": "010000",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "3"
+  },
+  {
+   "kingwen": 8,
+   "inner": "☷ Earth [000]",
+   "outer": "☵ Water [010]",
+   "lines": "000010",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "5"
+  },
+  {
+   "kingwen": 9,
+   "inner": "☰ Heaven [111]",
+   "outer": "☴ Wind [011]",
+   "lines": "111011",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "5"
+  },
+  {
+   "kingwen": 10,
+   "inner": "☱ Lake [110]",
+   "outer": "☰ Heaven [111]",
+   "lines": "110111",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "3"
+  },
+  {
+   "kingwen": 11,
+   "inner": "☰ Heaven [111]",
+   "outer": "☷ Earth [000]",
+   "lines": "111000",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "7"
+  },
+  {
+   "kingwen": 12,
+   "inner": "☷ Earth [000]",
+   "outer": "☰ Heaven [111]",
+   "lines": "000111",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "5"
+  },
+  {
+   "kingwen": 13,
+   "inner": "☲ Fire [101]",
+   "outer": "☰ Heaven [111]",
+   "lines": "101111",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "5"
+  },
+  {
+   "kingwen": 14,
+   "inner": "☰ Heaven [111]",
+   "outer": "☲ Fire [101]",
+   "lines": "111101",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "3"
+  },
+  {
+   "kingwen": 15,
+   "inner": "☶ Mountain [001]",
+   "outer": "☷ Earth [000]",
+   "lines": "001000",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "5"
+  },
+  {
+   "kingwen": 16,
+   "inner": "☷ Earth [000]",
+   "outer": "☳ Thunder [100]",
+   "lines": "000100",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "3"
+  },
+  {
+   "kingwen": 17,
+   "inner": "☳ Thunder [100]",
+   "outer": "☱ Lake [110]",
+   "lines": "100110",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "5"
+  },
+  {
+   "kingwen": 18,
+   "inner": "☴ Wind [011]",
+   "outer": "☶ Mountain [001]",
+   "lines": "011001",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "3"
+  },
+  {
+   "kingwen": 19,
+   "inner": "☱ Lake [110]",
+   "outer": "☷ Earth [000]",
+   "lines": "110000",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "5"
+  },
+  {
+   "kingwen": 20,
+   "inner": "☷ Earth [000]",
+   "outer": "☴ Wind [011]",
+   "lines": "000011",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "5"
+  },
+  {
+   "kingwen": 21,
+   "inner": "☳ Thunder [100]",
+   "outer": "☲ Fire [101]",
+   "lines": "100101",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "3"
+  },
+  {
+   "kingwen": 22,
+   "inner": "☲ Fire [101]",
+   "outer": "☶ Mountain [001]",
+   "lines": "101001",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "5"
+  },
+  {
+   "kingwen": 23,
+   "inner": "☷ Earth [000]",
+   "outer": "☶ Mountain [001]",
+   "lines": "000001",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "3"
+  },
+  {
+   "kingwen": 24,
+   "inner": "☳ Thunder [100]",
+   "outer": "☷ Earth [000]",
+   "lines": "100000",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "5"
+  },
+  {
+   "kingwen": 25,
+   "inner": "☳ Thunder [100]",
+   "outer": "☰ Heaven [111]",
+   "lines": "100111",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "5"
+  },
+  {
+   "kingwen": 26,
+   "inner": "☰ Heaven [111]",
+   "outer": "☶ Mountain [001]",
+   "lines": "111001",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "5"
+  },
+  {
+   "kingwen": 27,
+   "inner": "☳ Thunder [100]",
+   "outer": "☶ Mountain [001]",
+   "lines": "100001",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "5"
+  },
+  {
+   "kingwen": 28,
+   "inner": "☴ Wind [011]",
+   "outer": "☱ Lake [110]",
+   "lines": "011110",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "5"
+  },
+  {
+   "kingwen": 29,
+   "inner": "☵ Water [010]",
+   "outer": "☵ Water [010]",
+   "lines": "010010",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "3"
+  },
+  {
+   "kingwen": 30,
+   "inner": "☲ Fire [101]",
+   "outer": "☲ Fire [101]",
+   "lines": "101101",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "3"
+  },
+  {
+   "kingwen": 31,
+   "inner": "☶ Mountain [001]",
+   "outer": "☱ Lake [110]",
+   "lines": "001110",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "7"
+  },
+  {
+   "kingwen": 32,
+   "inner": "☴ Wind [011]",
+   "outer": "☳ Thunder [100]",
+   "lines": "011100",
+   "canon": "upper",
+   "executable": false,
+   "fit_default": "5"
+  },
+  {
+   "kingwen": 33,
+   "inner": "☶ Mountain [001]",
+   "outer": "☰ Heaven [111]",
+   "lines": "001111",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "5"
+  },
+  {
+   "kingwen": 34,
+   "inner": "☰ Heaven [111]",
+   "outer": "☳ Thunder [100]",
+   "lines": "111100",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "5"
+  },
+  {
+   "kingwen": 35,
+   "inner": "☷ Earth [000]",
+   "outer": "☲ Fire [101]",
+   "lines": "000101",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "3"
+  },
+  {
+   "kingwen": 36,
+   "inner": "☲ Fire [101]",
+   "outer": "☷ Earth [000]",
+   "lines": "101000",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "7"
+  },
+  {
+   "kingwen": 37,
+   "inner": "☲ Fire [101]",
+   "outer": "☴ Wind [011]",
+   "lines": "101011",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "7"
+  },
+  {
+   "kingwen": 38,
+   "inner": "☱ Lake [110]",
+   "outer": "☲ Fire [101]",
+   "lines": "110101",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "3"
+  },
+  {
+   "kingwen": 39,
+   "inner": "☶ Mountain [001]",
+   "outer": "☵ Water [010]",
+   "lines": "001010",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "7"
+  },
+  {
+   "kingwen": 40,
+   "inner": "☵ Water [010]",
+   "outer": "☳ Thunder [100]",
+   "lines": "010100",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "3"
+  },
+  {
+   "kingwen": 41,
+   "inner": "☱ Lake [110]",
+   "outer": "☶ Mountain [001]",
+   "lines": "110001",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "5"
+  },
+  {
+   "kingwen": 42,
+   "inner": "☳ Thunder [100]",
+   "outer": "☴ Wind [011]",
+   "lines": "100011",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "7"
+  },
+  {
+   "kingwen": 43,
+   "inner": "☰ Heaven [111]",
+   "outer": "☱ Lake [110]",
+   "lines": "111110",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "5"
+  },
+  {
+   "kingwen": 44,
+   "inner": "☴ Wind [011]",
+   "outer": "☰ Heaven [111]",
+   "lines": "011111",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "3"
+  },
+  {
+   "kingwen": 45,
+   "inner": "☷ Earth [000]",
+   "outer": "☱ Lake [110]",
+   "lines": "000110",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "5"
+  },
+  {
+   "kingwen": 46,
+   "inner": "☴ Wind [011]",
+   "outer": "☷ Earth [000]",
+   "lines": "011000",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "5"
+  },
+  {
+   "kingwen": 47,
+   "inner": "☵ Water [010]",
+   "outer": "☱ Lake [110]",
+   "lines": "010110",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "3"
+  },
+  {
+   "kingwen": 48,
+   "inner": "☴ Wind [011]",
+   "outer": "☵ Water [010]",
+   "lines": "011010",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "5"
+  },
+  {
+   "kingwen": 49,
+   "inner": "☲ Fire [101]",
+   "outer": "☱ Lake [110]",
+   "lines": "101110",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "7"
+  },
+  {
+   "kingwen": 50,
+   "inner": "☴ Wind [011]",
+   "outer": "☲ Fire [101]",
+   "lines": "011101",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "3"
+  },
+  {
+   "kingwen": 51,
+   "inner": "☳ Thunder [100]",
+   "outer": "☳ Thunder [100]",
+   "lines": "100100",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "3"
+  },
+  {
+   "kingwen": 52,
+   "inner": "☶ Mountain [001]",
+   "outer": "☶ Mountain [001]",
+   "lines": "001001",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "3"
+  },
+  {
+   "kingwen": 53,
+   "inner": "☶ Mountain [001]",
+   "outer": "☴ Wind [011]",
+   "lines": "001011",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "5"
+  },
+  {
+   "kingwen": 54,
+   "inner": "☱ Lake [110]",
+   "outer": "☳ Thunder [100]",
+   "lines": "110100",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "3"
+  },
+  {
+   "kingwen": 55,
+   "inner": "☲ Fire [101]",
+   "outer": "☳ Thunder [100]",
+   "lines": "101100",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "5"
+  },
+  {
+   "kingwen": 56,
+   "inner": "☶ Mountain [001]",
+   "outer": "☲ Fire [101]",
+   "lines": "001101",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "3"
+  },
+  {
+   "kingwen": 57,
+   "inner": "☴ Wind [011]",
+   "outer": "☴ Wind [011]",
+   "lines": "011011",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "3"
+  },
+  {
+   "kingwen": 58,
+   "inner": "☱ Lake [110]",
+   "outer": "☱ Lake [110]",
+   "lines": "110110",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "3"
+  },
+  {
+   "kingwen": 59,
+   "inner": "☵ Water [010]",
+   "outer": "☴ Wind [011]",
+   "lines": "010011",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "3"
+  },
+  {
+   "kingwen": 60,
+   "inner": "☱ Lake [110]",
+   "outer": "☵ Water [010]",
+   "lines": "110010",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "5"
+  },
+  {
+   "kingwen": 61,
+   "inner": "☱ Lake [110]",
+   "outer": "☴ Wind [011]",
+   "lines": "110011",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "5"
+  },
+  {
+   "kingwen": 62,
+   "inner": "☶ Mountain [001]",
+   "outer": "☳ Thunder [100]",
+   "lines": "001100",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "5"
+  },
+  {
+   "kingwen": 63,
+   "inner": "☲ Fire [101]",
+   "outer": "☵ Water [010]",
+   "lines": "101010",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "9"
+  },
+  {
+   "kingwen": 64,
+   "inner": "☵ Water [010]",
+   "outer": "☲ Fire [101]",
+   "lines": "010101",
+   "canon": "lower",
+   "executable": true,
+   "fit_default": "3"
+  }
+ ],
+ "fibres": {
+  "☷ Earth [000]": {
+   "decision": [
+    "☰ Heaven [111]",
+    "☳ Thunder [100]",
+    "☴ Wind [011]",
+    "☵ Water [010]",
+    "☶ Mountain [001]",
+    "☷ Earth [000]"
+   ],
+   "execution": [
+    "☱ Lake [110]",
+    "☲ Fire [101]"
+   ]
+  },
+  "☶ Mountain [001]": {
+   "decision": [
+    "☱ Lake [110]",
+    "☷ Earth [000]"
+   ],
+   "execution": [
+    "☰ Heaven [111]",
+    "☲ Fire [101]",
+    "☳ Thunder [100]",
+    "☴ Wind [011]",
+    "☵ Water [010]",
+    "☶ Mountain [001]"
+   ]
+  },
+  "☵ Water [010]": {
+   "decision": [
+    "☰ Heaven [111]",
+    "☵ Water [010]",
+    "☶ Mountain [001]",
+    "☷ Earth [000]"
+   ],
+   "execution": [
+    "☱ Lake [110]",
+    "☲ Fire [101]",
+    "☳ Thunder [100]",
+    "☴ Wind [011]"
+   ]
+  },
+  "☴ Wind [011]": {
+   "decision": [
+    "☱ Lake [110]",
+    "☳ Thunder [100]",
+    "☶ Mountain [001]"
+   ],
+   "execution": [
+    "☰ Heaven [111]",
+    "☲ Fire [101]",
+    "☴ Wind [011]",
+    "☵ Water [010]",
+    "☷ Earth [000]"
+   ]
+  },
+  "☳ Thunder [100]": {
+   "decision": [
+    "☰ Heaven [111]",
+    "☱ Lake [110]",
+    "☲ Fire [101]",
+    "☵ Water [010]",
+    "☶ Mountain [001]",
+    "☷ Earth [000]"
+   ],
+   "execution": [
+    "☳ Thunder [100]",
+    "☴ Wind [011]"
+   ]
+  },
+  "☲ Fire [101]": {
+   "decision": [
+    "☰ Heaven [111]",
+    "☲ Fire [101]",
+    "☶ Mountain [001]"
+   ],
+   "execution": [
+    "☱ Lake [110]",
+    "☳ Thunder [100]",
+    "☴ Wind [011]",
+    "☵ Water [010]",
+    "☷ Earth [000]"
+   ]
+  },
+  "☱ Lake [110]": {
+   "decision": [
+    "☰ Heaven [111]",
+    "☷ Earth [000]"
+   ],
+   "execution": [
+    "☱ Lake [110]",
+    "☲ Fire [101]",
+    "☳ Thunder [100]",
+    "☴ Wind [011]",
+    "☵ Water [010]",
+    "☶ Mountain [001]"
+   ]
+  },
+  "☰ Heaven [111]": {
+   "decision": [
+    "☰ Heaven [111]",
+    "☲ Fire [101]",
+    "☴ Wind [011]",
+    "☵ Water [010]",
+    "☶ Mountain [001]",
+    "☷ Earth [000]"
+   ],
+   "execution": [
+    "☱ Lake [110]",
+    "☳ Thunder [100]"
+   ]
+  }
+ }
+}

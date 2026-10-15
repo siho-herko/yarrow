@@ -1,0 +1,31 @@
+# PLACEMENT: circulation-safe
+cff-version: 1.2.0
+message: "If you use Yarrow, please cite the paper below and, where relevant, this software."
+title: "Yarrow: open-source components of the Hexis programme"
+version: 0.1.0
+date-released: 2026-10-15
+license: Apache-2.0
+repository-code: "https://github.com/siho-herko/yarrow"
+authors:
+  - family-names: Herko
+    given-names: Simon
+    orcid: "https://orcid.org/0000-0001-9941-7313"
+    affiliation: "Trigrammatic Ltd"
+  - family-names: Pidcock
+    given-names: Chris
+    orcid: "https://orcid.org/0000-0001-5279-412X"
+preferred-citation:
+  type: report
+  title: "Hexis: a fixed 64-state structure for governing cognitive disposition in language-model agents — definitions, structural results and a pre-registered programme"
+  authors:
+    - family-names: Herko
+      given-names: Simon
+      orcid: "https://orcid.org/0000-0001-9941-7313"
+    - family-names: Pidcock
+      given-names: Chris
+      orcid: "https://orcid.org/0000-0001-5279-412X"
+  year: 2026
+  version: "1.0"
+  publisher:
+    name: Zenodo
+  doi: 10.5281/zenodo.23393632
