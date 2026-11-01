@@ -5,8 +5,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "yarrow-ai"
-version = "0.1.0"
-description = "Open-source components of the Hexis programme: the arithmetic of a fixed 64-state structure for language-model agents."
+version = "0.2.0rc1"
+description = "Open-source components of the Hexis programme: the arithmetic of a fixed 64-state structure for language-model agents, its router schema, a sealing tool and tool-layer escalation invariants."
 readme = "README.md"
 requires-python = ">=3.9"
 license = "Apache-2.0"
@@ -27,7 +27,8 @@ Paper = "https://doi.org/10.5281/zenodo.23393632"
 Issues = "https://github.com/siho-herko/yarrow/issues"
 
 [tool.setuptools]
-packages = ["yarrow", "yarrow.canon"]
+packages = ["yarrow", "yarrow.canon", "yarrow.schema", "yarrow.seal", "yarrow.escalate"]
 
 [tool.setuptools.package-data]
 "yarrow.canon" = ["*.json"]
+"yarrow.schema" = ["*.json"]
